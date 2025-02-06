@@ -1,0 +1,28 @@
+body{
+    background-color: #131313;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #fffafa;
+    width: 350px;
+}
+
+.image-card{
+    height: 200px;
+    object-fit: cover;
+}
+
+.avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    margin-top: -75px;
+    border: 5px solid #fffafa5d;
+}
